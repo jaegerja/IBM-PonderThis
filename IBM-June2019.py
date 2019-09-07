@@ -44,8 +44,6 @@ print(odd_set)
 print
 
 #Validate
-even_sum = 0
-odd_sum = 0
 
 even_sum = sum([Decimal(x).sqrt() for x in even_set])
 odd_sum = sum([Decimal(x).sqrt() for x in odd_set])
